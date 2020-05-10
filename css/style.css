@@ -93,9 +93,14 @@ footer {
 
 .banner {
     background-color: #555;
-    height: 250px;
+    max-height: 250px;
     max-width: 1200px;
     margin: auto;
+}
+.banner > img {
+    height: 250px;
+    width: 1200px;
+    object-fit: cover;
 }
 
 .sec-1,
@@ -150,4 +155,41 @@ footer {
 
 .center-h {
     text-align: center;
+}
+
+/* placeholder content for the testimonial page - to be removed margin: 50px 20px 50px 20px;*/
+.t-content {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 50px auto 50px auto;
+    flex-wrap: nowrap;
+}
+
+.stories {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.t-img {
+    width: 75px;
+    height: 75px;
+    background-color: #555;
+    display: flex;
+}
+
+.info-lines {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.t-info-line {
+    margin: 0 0 10px 15px;
+    height: 15px;
+    width: 100%;
+    background-color: #888;
+    display: flex;
 }
