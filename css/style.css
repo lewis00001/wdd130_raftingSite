@@ -109,11 +109,6 @@ footer {
     max-width: 1200px;
     margin: auto;
 }
-.banner > img {
-    height: 250px;
-    width: 1200px;
-    object-fit: cover;
-}
 
 .sec-1,
 .sec-2 {
@@ -167,6 +162,24 @@ footer {
 
 .center-h {
     text-align: center;
+}
+
+.p-title {
+    margin: auto;
+    display: inline-block;
+}
+
+.p-title::before { 
+    content: "";
+    border-color: transparent #db3a34;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }
 
 /* placeholder content for the testimonial page - to be removed margin: 50px 20px 50px 20px;*/
