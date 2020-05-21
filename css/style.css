@@ -181,7 +181,13 @@ footer {
     position: relative;
 }
 
-/* placeholder content for the testimonial page - to be removed margin: 50px 20px 50px 20px;*/
+.inline-link {
+    text-decoration: none;
+    color: #db3a34;
+    font-weight: 800;
+}
+
+/* placeholder content for the testimonial page - to be removed */
 .t-content {
 
     display: flex;
