@@ -1,11 +1,11 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@500);
+
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
-
-@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab);
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@500);
 
 header {
     background-color: #084c61;
@@ -24,7 +24,7 @@ nav {
     letter-spacing: 0.08em;
 }
 
-nav > a {
+nav>a {
     text-decoration: none;
     font-weight: 700;
     color: #ffc857;
@@ -91,7 +91,7 @@ footer {
 }
 
 .current-page::after {
-    content:'';
+    content: '';
     position: absolute;
     top: 100%;
     left: 50%;
@@ -126,7 +126,7 @@ footer {
     max-width: 600px;
 }
 
-.text-section > p {
+.text-section>p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.4em;
@@ -152,7 +152,7 @@ footer {
     max-width: 800px;
 }
 
-.center-text-section > p {
+.center-text-section>p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 1.4em;
@@ -168,7 +168,7 @@ footer {
     display: inline-block;
 }
 
-.p-title::before { 
+.p-title::before {
     content: "";
     border-color: transparent #db3a34;
     border-style: solid;
@@ -183,7 +183,7 @@ footer {
 
 /* placeholder content for the testimonial page - to be removed margin: 50px 20px 50px 20px;*/
 .t-content {
-    
+
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -218,12 +218,13 @@ footer {
     display: flex;
 }
 
-.social-links > a > i {
+.social-links>a>i {
     color: #ffc857;
     font-size: 22px;
 
 }
-.social-links > a {
+
+.social-links>a {
     text-decoration: none;
     padding-left: 8px;
 }
