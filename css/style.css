@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: white;
-}
-
 header {
     background-color: #084c61;
     display: flex;
@@ -64,6 +60,7 @@ footer {
 }
 
 .content {
+    background-color: white;
     max-width: 1200px;
     margin: auto;
 }
