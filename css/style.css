@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: white;
+}
+
 header {
     background-color: #084c61;
     display: flex;
