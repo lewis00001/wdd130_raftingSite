@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1500px;
+    margin: auto;
+}
+
 header {
     background-color: #084c61;
     display: flex;
@@ -30,6 +35,7 @@ nav>a {
     color: #ffc857;
     height: 50%;
     position: relative;
+    min-width: 118px;
 }
 
 h2 {
@@ -44,17 +50,13 @@ h3 {
     padding-bottom: 10px;
 }
 
-body {
-    min-width: 520px;
-}
-
 footer {
     background-color: #084c61;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 12px;
-    height: 40px;
+    padding: 15px;
+    height: 50px;
     color: #ffc857;
     font-family: 'Raleway', sans-serif;
 }
@@ -80,11 +82,13 @@ footer {
     display: flex;
     align-items: flex-end;
     color: #bbb;
+    margin: 15px;
 }
 
 .links {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
     padding: 0 20px 0 20px;
 }
@@ -111,10 +115,16 @@ footer {
 }
 
 .banner {
-    background-color: #555;
+    display: flex;
     max-height: 300px;
-    max-width: 1200px;
     margin: auto;
+    justify-content: center;
+}
+
+.banner>video {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
     box-shadow: 4px 4px 6px #555;
 }
 
@@ -146,7 +156,7 @@ footer {
     display: flex;
     margin: 20px;
     height: 300px;
-    min-width: 500px;
+    width: 500px;
     box-shadow: 4px 4px 6px #555;
 }
 
@@ -262,11 +272,78 @@ footer {
 
 .social-links>a>i {
     color: #ffc857;
-    font-size: 22px;
+    font-size: 26px;
 
 }
 
 .social-links>a {
     text-decoration: none;
     padding-left: 8px;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0;
+        max-width: 100vw;
+    }
+
+    footer {
+        width: 100vw;
+        height: 100px;
+    }
+
+    .logo-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    nav {
+        min-height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    nav>a {
+        display: flex;
+        height: 50px;
+        font-size: 13px;
+        min-width: 80px;
+    }
+
+    video {
+        display: none;
+    }
+
+    main {
+        display: block;
+        width: 100vw;
+    }
+
+    .img-section {
+        width: 250px;
+        height: 150px;
+    }
+
+    .img-section>img {
+        width: 100%;
+    }
+
+    .social-links {
+        min-width: 100px;
+    }
+
+    .logo-text {
+        margin: auto;
+    }
+
 }
