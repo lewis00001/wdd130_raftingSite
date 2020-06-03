@@ -115,6 +115,7 @@ footer {
     max-height: 300px;
     max-width: 1200px;
     margin: auto;
+    box-shadow: 4px 4px 6px #555;
 }
 
 .sec-1,
@@ -146,7 +147,7 @@ footer {
     margin: 20px;
     height: 300px;
     min-width: 500px;
-    background-color: #999;
+    box-shadow: 4px 4px 6px #555;
 }
 
 .sec-3 {
