@@ -26,6 +26,7 @@ button {
 button:hover {
     background-color: #323031;
     color: #ffc857;
+    cursor: pointer;
 }
 
 .contact-us-form {
